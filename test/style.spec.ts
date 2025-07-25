@@ -231,8 +231,6 @@ test('Multiple CSS Modules', async () => {
     },
   })
 
-  console.log(instance.$style)
-
   expect(instance.$style.red).toBeDefined()
   expect(instance.$style.green).toBeDefined()
 })
